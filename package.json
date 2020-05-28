@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "NODE_ENV=production node server",
-    "dev": "nodemon server --watch",
-    "heroku-postbuild": "npm run start"
+    "dev": "nodemon server --watch"
   },
   "author": "Andy",
   "license": "ISC",
